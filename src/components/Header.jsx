@@ -22,7 +22,7 @@ const Navbar = () => {
 
   return (
     <Box sx={{ display: 'flex' }}>
-      <AppBar position="fixed" style={{ backgroundColor: '#edb832' }}>
+      <AppBar position="fixed" style={{ backgroundColor: '#000000' }}>
         <Toolbar>
           <IconButton edge="start" color="inherit" onClick={toggleDrawer} sx={{ display: { sm: 'none' } }}>
             <MenuIcon />
